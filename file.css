@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans&family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1158px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+button{
+    padding: .60rem;
+    background-color: #efc8b1;
+    color: #8a6626;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #efc8b1;
+    transition: all .3s ease-in-out;
+    font-family: 'Bree Serif', serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+
+}
+
+button:hover{
+    background-color: #8a6626;
+    color: aliceblue;
+}
+
+.text{
+    width:745px;
+    display: flex;
+    text-align: center;
+  align-items: center;
+  font-size:1.5rem;
+  line-height: 30px;
+  font-family: 'DM Sans', sans-serif;
+
+  justify-content: center;
+    padding: 50px 10px;
+    max-width: 100%;
+    color:black;
+}
